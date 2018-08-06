@@ -6,7 +6,7 @@ from jsonschema import validate
 from jsonschema import ValidationError
 from common import SampleConstants
 
-def convert_ginkgo(schema_file, input_file, verbose=True):
+def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
 
     schema = json.load(open(schema_file))
     ginkgo_doc = json.load(open(input_file))
@@ -98,6 +98,10 @@ def convert_ginkgo(schema_file, input_file, verbose=True):
         validate(output_doc, schema)
         if verbose:
             print(json.dumps(output_doc, indent=4))
+        if output:
+            path = os.path.join("output", os.path.basename(input_file))
+            with open(path, 'w') as outfile:
+                json.dump(output_doc, outfile, indent=4)
         return True
     except ValidationError as err:
         if verbose:
