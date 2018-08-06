@@ -152,8 +152,21 @@
                     "type": "string",
                     "enum": [
                         "FCS",
+                        "SRAW",
                         "FASTQ",
-                        "CSV"
+                        "CSV",
+                        "ZIP",
+                        "TXT",
+                        "MZML",
+                        "MSF"
+                    ]
+                },
+                "state": {
+                    "description": "raw or processed state",
+                    "type": "string",
+                    "enum": [
+                        "RAW",
+                        "PROCESSED"
                     ]
                 }
             },
@@ -176,7 +189,8 @@
                 "YEAST_GATES",
                 "NOVEL_CHASSIS",
                 "RIBOSWITCHES",
-                "CELL_STATE"
+                "CELL_STATE",
+                "UNKNOWN"
             ],
             "type": "string"
         },
