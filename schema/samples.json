@@ -6,7 +6,7 @@
     "samples": [{
         "sample_id": "tx_foo",
         "strain": "tx_strain_1",
-        "media": ["tx_media_1"],
+        "contents": ["tx_media_1"],
         "replicate": 1,
         "inoculation_density": "0.00015:od600",
         "temperature": "30:celsius",

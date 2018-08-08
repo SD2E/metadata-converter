@@ -14,8 +14,8 @@
                     "description": "strain reference, will be mapped by SBH Librarian",
                     "type": "string"
                 },
-                "media": {
-                    "description": "list of media referenes, will be mapped by SBH librarian",
+                "contents": {
+                    "description": "list of media/component references, will be mapped by SBH librarian",
                     "items": {
                         "type": "string"
                     },
@@ -86,7 +86,7 @@
             "required": [
                 "sample_id",
                 "strain",
-                "media",
+                "contents",
                 "replicate",
                 "measurements"
             ],

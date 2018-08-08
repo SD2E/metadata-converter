@@ -6,7 +6,7 @@
     "samples": [
         {
             "sample_id": "8309978",
-            "media": [
+            "contents": [
                 "e678 (Supplemented M9 medium, no carbon source)",
                 "e2231 (RNA protect (Qiagen))",
                 "e1 (Glycerol)",

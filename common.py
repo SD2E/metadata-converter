@@ -17,7 +17,7 @@ class SampleConstants():
     SAMPLES = "samples"
     SAMPLE_ID = "sample_id"
     STRAIN = "strain"
-    MEDIA = "media"
+    CONTENTS = "contents"
     REPLICATE = "replicate"
     INOCULATION_DENSITY = "inoculation_density"
     TEMPERATURE = "temperature"

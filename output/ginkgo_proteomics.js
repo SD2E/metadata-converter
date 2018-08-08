@@ -6,7 +6,7 @@
     "samples": [
         {
             "sample_id": "8309785",
-            "media": [
+            "contents": [
                 "e394 (Kanamycin Sulfate)",
                 "e403 (D-(+)-Glucose (Dextrose))",
                 "e2420 (7M Urea & 2M Thiourea Proteomics Lysis Buffer)",

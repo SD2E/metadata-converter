@@ -29,7 +29,7 @@ def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
         for reagent in gingko_sample["content"]["reagent"]:
             # TODO librarian mapping
             reagents.append(reagent["name"])
-        sample_doc[SampleConstants.MEDIA] = reagents
+        sample_doc[SampleConstants.CONTENTS] = reagents
 
         for strain in gingko_sample["content"]["strain"]:
             # TODO librarian mapping

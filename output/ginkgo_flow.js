@@ -6,7 +6,7 @@
     "samples": [
         {
             "sample_id": "8311615",
-            "media": [
+            "contents": [
                 "e1 (Glycerol)",
                 "e395 (Chloramphenicol)",
                 "e394 (Kanamycin Sulfate)",
