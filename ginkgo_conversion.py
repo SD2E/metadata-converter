@@ -41,9 +41,30 @@ def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
             # TODO multiple strains?
             continue
 
+        props = gingko_sample["properties"]
+
+        control_for_prop = "control_for_samples"
+        sbh_uri_prop = "SD2_SBH_URI"
+        if control_for_prop in gingko_sample:
+            control_for_val = gingko_sample[control_for_prop]
+
+            #int -> str conversion
+            if isinstance(control_for_val, list):
+                if type(control_for_val[0]) == int:
+                    control_for_val = [str(n) for n in control_for_val]
+
+            if sbh_uri_prop in props:
+                sbh_uri_val = props[sbh_uri_prop]
+                if "fluorescein_control" in sbh_uri_val:
+                    sample_doc[SampleConstants.STANDARD_TYPE] = SampleConstants.STANDARD_FLUORESCEIN
+                    sample_doc[SampleConstants.STANDARD_FOR] = control_for_val
+                else:
+                    print("Unknown control for sample: {}".format(sample_doc[SampleConstants.SAMPLE_ID]))
+            else:
+                print("Unknown control for sample: {}".format(sample_doc[SampleConstants.SAMPLE_ID]))
+
         # do some cleaning
         temp_prop = "SD2_incubation_temperature"
-        props = gingko_sample["properties"]
 
         if temp_prop in props:
             temperature = props[temp_prop]

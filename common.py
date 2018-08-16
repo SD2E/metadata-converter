@@ -23,6 +23,10 @@ class SampleConstants():
     TEMPERATURE = "temperature"
     TIMEPOINT = "timepoint"
 
+    STANDARD_TYPE = "standard_type"
+    STANDARD_FOR = "standard_for"
+    STANDARD_FLUORESCEIN = "FLUORESCEIN"
+
     #measurements
     MEASUREMENTS = "measurements"
     FILES = "files"
