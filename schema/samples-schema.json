@@ -200,7 +200,7 @@
             "enum": [
                 "Ginkgo",
                 "Transcriptic",
-                "UWBF"
+                "UW_BIOFAB"
             ],
             "type": "string"
         },
