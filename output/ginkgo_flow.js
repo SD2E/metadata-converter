@@ -19,7 +19,7 @@
             "replicate": 0,
             "measurements": [
                 {
-                    "timepoint": "5:hours",
+                    "timepoint": "5:hour",
                     "files": [
                         {
                             "name": "attachments/sraw/e7192/8311615.sraw",

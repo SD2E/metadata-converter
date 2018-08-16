@@ -20,7 +20,7 @@
             "replicate": 0,
             "measurements": [
                 {
-                    "timepoint": "18:hours",
+                    "timepoint": "18:hour",
                     "files": [
                         {
                             "name": "attachments/fastq/e7356/8645155_S1_R1_001_paired.fastq.gz",
@@ -57,7 +57,7 @@
                     "measurement_name": "NC E. coli NAND 37C (WF: 13893, SEQ_WF: 13970)"
                 },
                 {
-                    "timepoint": "18:hours",
+                    "timepoint": "18:hour",
                     "files": [
                         {
                             "name": "attachments/fastq/e7544/8802852_S1_R2_001_paired.fastq.gz",

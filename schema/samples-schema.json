@@ -29,12 +29,12 @@
                 "inoculation_density": {
                     "description": "target inoculation density",
                     "type": "string",
-                    "pattern": "\\d+(\\.\\d+)?:od600"
+                    "pattern": "^\\d+(\\.\\d+)?:od600$"
                 },
                 "temperature": {
                     "description": "temperature condition",
                     "type": "string",
-                    "pattern": "\\d+(\\.\\d+)?:celsius"
+                    "pattern": "^\\d+(\\.\\d+)?:celsius$"
                 },
                 "measurements": {
                     "description": "measurements for a sample",
@@ -104,7 +104,7 @@
                 "timepoint": {
                     "description": "timepoint condition",
                     "type": "string",
-                    "pattern": "\\d+(\\.\\d+)?:(millisecond|second|minute|hour)"
+                    "pattern": "^-?\\d+(\\.\\d+)?:(millisecond|second|minute|hour)$"
                 },
                 "measurement_type": {
                     "description": "enumerated measurement type",

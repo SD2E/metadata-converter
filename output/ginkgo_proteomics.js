@@ -19,7 +19,7 @@
             "replicate": 0,
             "measurements": [
                 {
-                    "timepoint": "5:hours",
+                    "timepoint": "5:hour",
                     "files": [
                         {
                             "name": "/ginkgo/bitome/data/foundry/test/proteomics/exp7317/exp7317-34-ds6096935.mzML.sic.130.1397.peaks.csv",

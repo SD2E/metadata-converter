@@ -63,7 +63,10 @@ def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
                 if time_val == "pre-pre-induction" or time_val == "pre-induction":
                     print("Time val not recognized, skipping {}".format(time_val))
                 else:
-                    measurement_doc[SampleConstants.TIMEPOINT] = props[time_prop]
+                    # more cleanup
+                    if time_val.endswith("hours"):
+                        time_val = time_val.replace("hours", "hour")
+                    measurement_doc[SampleConstants.TIMEPOINT] = time_val
             measurement_doc[SampleConstants.FILES] = []
 
             assay_type = gingko_sample["measurements"][measurement_key]["assay_type"]

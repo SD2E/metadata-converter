@@ -19,7 +19,7 @@
             "replicate": 0,
             "measurements": [
                 {
-                    "timepoint": "5:hours",
+                    "timepoint": "5:hour",
                     "files": [
                         {
                             "name": "attachments/biotek_multi_csv/e6980/c151390.txt",
@@ -36,7 +36,7 @@
                     "measurement_name": "NC NAND Platereader"
                 },
                 {
-                    "timepoint": "5:hours",
+                    "timepoint": "5:hour",
                     "files": [
                         {
                             "name": "attachments/biotek_multi_csv/e6995/c151390.txt",
