@@ -85,10 +85,7 @@
             },
             "required": [
                 "sample_id",
-                "strain",
-                "contents",
-                "replicate",
-                "measurements"
+                "contents"
             ],
             "type": "object"
         },

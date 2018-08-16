@@ -5,6 +5,7 @@ import os
 from jsonschema import validate
 from jsonschema import ValidationError
 from common import SampleConstants
+import six
 
 def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
 
@@ -38,18 +39,31 @@ def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
             continue
 
         # do some cleaning
-        temperature = gingko_sample["properties"]["SD2_incubation_temperature"]
-        if "centigrade" in temperature:
-            temperature = temperature.replace("centigrade", "celsius")
+        temp_prop = "SD2_incubation_temperature"
+        props = gingko_sample["properties"]
 
-        sample_doc[SampleConstants.TEMPERATURE] = temperature
-        sample_doc[SampleConstants.REPLICATE] = gingko_sample["properties"]["SD2_replicate"]
+        if temp_prop in props:
+            temperature = props[temp_prop]
+            if "centigrade" in temperature:
+                temperature = temperature.replace("centigrade", "celsius")
+            sample_doc[SampleConstants.TEMPERATURE] = temperature
 
-        sample_doc[SampleConstants.MEASUREMENTS] = []
+        replicate_prop = "SD2_replicate"
+        if replicate_prop in props:
+            replicate_val = props[replicate_prop]
+            if isinstance(replicate_val, six.string_types):
+                replicate_val = int(replicate_val)
+            sample_doc[SampleConstants.REPLICATE] = replicate_val
 
         for measurement_key in gingko_sample["measurements"].keys():
             measurement_doc = {}
-            measurement_doc[SampleConstants.TIMEPOINT] = gingko_sample["properties"]["SD2_timepoint"]
+            time_prop = "SD2_timepoint"
+            if time_prop in props:
+                time_val = props[time_prop]
+                if time_val == "pre-pre-induction" or time_val == "pre-induction":
+                    print("Time val not recognized, skipping {}".format(time_val))
+                else:
+                    measurement_doc[SampleConstants.TIMEPOINT] = props[time_prop]
             measurement_doc[SampleConstants.FILES] = []
 
             assay_type = gingko_sample["measurements"][measurement_key]["assay_type"]
@@ -90,14 +104,16 @@ def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
             if len(measurement_doc[SampleConstants.FILES]) == 0:
                 print("Warning, measurement contains no files, skipping {}".format(measurement_key))
             else:
+                if SampleConstants.MEASUREMENTS not in sample_doc:
+                    sample_doc[SampleConstants.MEASUREMENTS] = []
                 sample_doc[SampleConstants.MEASUREMENTS].append(measurement_doc)
 
         output_doc[SampleConstants.SAMPLES].append(sample_doc)
 
     try:
         validate(output_doc, schema)
-        if verbose:
-            print(json.dumps(output_doc, indent=4))
+        #if verbose:
+            #print(json.dumps(output_doc, indent=4))
         if output:
             path = os.path.join("output", os.path.basename(input_file))
             with open(path, 'w') as outfile:
@@ -137,6 +153,9 @@ if __name__ == "__main__":
         for f in os.listdir(path):
             file_path = os.path.join(path, f)
             print(file_path)
-            convert_ginkgo(sys.argv[1], file_path)
+            if file_path.endswith(".js") or file_path.endswith(".json"):
+                convert_ginkgo(sys.argv[1], file_path)
+            else:
+                print("Skipping {}".format(file_path))
     else:
         convert_ginkgo(sys.argv[1], sys.argv[2])
