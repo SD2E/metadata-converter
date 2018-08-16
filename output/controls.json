@@ -1,0 +1,1944 @@
+{
+    "experiment_id": "UNKNOWN",
+    "challenge_problem": "UNKNOWN",
+    "experiment_reference": "UNKNOWN",
+    "lab": "Ginkgo",
+    "samples": [
+        {
+            "sample_id": "8351147",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "e445 (Fluorescein sodium salt)"
+            ],
+            "replicate": 2,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351126",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "e445 (Fluorescein sodium salt)"
+            ],
+            "replicate": 0,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351127",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 0,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351120",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "e445 (Fluorescein sodium salt)"
+            ],
+            "replicate": 0,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351121",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "e445 (Fluorescein sodium salt)"
+            ],
+            "replicate": 0,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351122",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 0,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351123",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "e445 (Fluorescein sodium salt)"
+            ],
+            "replicate": 0,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351124",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "e445 (Fluorescein sodium salt)"
+            ],
+            "replicate": 0,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351125",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 0,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8293654",
+            "contents": [
+                "e678 (Supplemented M9 medium, no carbon source)",
+                "e403 (D-(+)-Glucose (Dextrose))",
+                "e394 (Kanamycin Sulfate)"
+            ],
+            "replicate": 0,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151061.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151061.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8293655",
+            "contents": [
+                "e403 (D-(+)-Glucose (Dextrose))",
+                "e394 (Kanamycin Sulfate)",
+                "e678 (Supplemented M9 medium, no carbon source)"
+            ],
+            "replicate": 1,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151061.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151061.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8293656",
+            "contents": [
+                "e394 (Kanamycin Sulfate)",
+                "e678 (Supplemented M9 medium, no carbon source)",
+                "e403 (D-(+)-Glucose (Dextrose))"
+            ],
+            "replicate": 2,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151061.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151061.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8293657",
+            "contents": [
+                "e394 (Kanamycin Sulfate)",
+                "e403 (D-(+)-Glucose (Dextrose))",
+                "e678 (Supplemented M9 medium, no carbon source)"
+            ],
+            "replicate": 3,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151061.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151061.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351130",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 0,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351131",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 1,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351132",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 1,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351133",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "e445 (Fluorescein sodium salt)"
+            ],
+            "replicate": 1,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8323742",
+            "contents": [
+                "e394 (Kanamycin Sulfate)",
+                "e403 (D-(+)-Glucose (Dextrose))",
+                "e678 (Supplemented M9 medium, no carbon source)"
+            ],
+            "replicate": 0,
+            "measurements": [
+                {
+                    "timepoint": "5:hours",
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151390.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151390_I8CbN6y.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151390.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151390_I8CbN6y.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader re-upload"
+                }
+            ]
+        },
+        {
+            "sample_id": "8323743",
+            "contents": [
+                "e403 (D-(+)-Glucose (Dextrose))",
+                "e678 (Supplemented M9 medium, no carbon source)",
+                "e394 (Kanamycin Sulfate)"
+            ],
+            "replicate": 0,
+            "measurements": [
+                {
+                    "timepoint": "18:hours",
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151389.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151389.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader re-upload"
+                }
+            ]
+        },
+        {
+            "sample_id": "8323744",
+            "contents": [
+                "e678 (Supplemented M9 medium, no carbon source)",
+                "e403 (D-(+)-Glucose (Dextrose))",
+                "e394 (Kanamycin Sulfate)"
+            ],
+            "replicate": 1,
+            "measurements": [
+                {
+                    "timepoint": "5:hours",
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151390_I8CbN6y.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151390.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151390_I8CbN6y.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151390.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader re-upload"
+                }
+            ]
+        },
+        {
+            "sample_id": "8323745",
+            "contents": [
+                "e394 (Kanamycin Sulfate)",
+                "e678 (Supplemented M9 medium, no carbon source)",
+                "e403 (D-(+)-Glucose (Dextrose))"
+            ],
+            "replicate": 1,
+            "measurements": [
+                {
+                    "timepoint": "18:hours",
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151389.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151389.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader re-upload"
+                }
+            ]
+        },
+        {
+            "sample_id": "8323746",
+            "contents": [
+                "e678 (Supplemented M9 medium, no carbon source)",
+                "e394 (Kanamycin Sulfate)",
+                "e403 (D-(+)-Glucose (Dextrose))"
+            ],
+            "replicate": 2,
+            "measurements": [
+                {
+                    "timepoint": "5:hours",
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151390_I8CbN6y.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151390.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151390_I8CbN6y.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151390.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader re-upload"
+                }
+            ]
+        },
+        {
+            "sample_id": "8323747",
+            "contents": [
+                "e394 (Kanamycin Sulfate)",
+                "e403 (D-(+)-Glucose (Dextrose))",
+                "e678 (Supplemented M9 medium, no carbon source)"
+            ],
+            "replicate": 2,
+            "measurements": [
+                {
+                    "timepoint": "18:hours",
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151389.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151389.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader re-upload"
+                }
+            ]
+        },
+        {
+            "sample_id": "8323748",
+            "contents": [
+                "e394 (Kanamycin Sulfate)",
+                "e403 (D-(+)-Glucose (Dextrose))",
+                "e678 (Supplemented M9 medium, no carbon source)"
+            ],
+            "replicate": 3,
+            "measurements": [
+                {
+                    "timepoint": "5:hours",
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151390.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151390_I8CbN6y.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151390.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151390_I8CbN6y.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader re-upload"
+                }
+            ]
+        },
+        {
+            "sample_id": "8323749",
+            "contents": [
+                "e403 (D-(+)-Glucose (Dextrose))",
+                "e678 (Supplemented M9 medium, no carbon source)",
+                "e394 (Kanamycin Sulfate)"
+            ],
+            "replicate": 3,
+            "measurements": [
+                {
+                    "timepoint": "18:hours",
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151389.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6995/c151389.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader re-upload"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351142",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 2,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351143",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "e445 (Fluorescein sodium salt)"
+            ],
+            "replicate": 2,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8300456",
+            "contents": [
+                "e403 (D-(+)-Glucose (Dextrose))",
+                "e678 (Supplemented M9 medium, no carbon source)",
+                "e394 (Kanamycin Sulfate)"
+            ],
+            "replicate": 0,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151139.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151139.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8300457",
+            "contents": [
+                "e394 (Kanamycin Sulfate)",
+                "e678 (Supplemented M9 medium, no carbon source)",
+                "e403 (D-(+)-Glucose (Dextrose))"
+            ],
+            "replicate": 1,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151139.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151139.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8300458",
+            "contents": [
+                "e678 (Supplemented M9 medium, no carbon source)",
+                "e394 (Kanamycin Sulfate)",
+                "e403 (D-(+)-Glucose (Dextrose))"
+            ],
+            "replicate": 2,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151139.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151139.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8300459",
+            "contents": [
+                "e403 (D-(+)-Glucose (Dextrose))",
+                "e394 (Kanamycin Sulfate)",
+                "e678 (Supplemented M9 medium, no carbon source)"
+            ],
+            "replicate": 3,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151139.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151139.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351148",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 2,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351149",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 2,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351150",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 2,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351151",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "e445 (Fluorescein sodium salt)"
+            ],
+            "replicate": 2,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351152",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 2,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351153",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "e445 (Fluorescein sodium salt)"
+            ],
+            "replicate": 3,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351154",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 3,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351155",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 3,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351156",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 3,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351134",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 1,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351158",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "e445 (Fluorescein sodium salt)"
+            ],
+            "replicate": 3,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351146",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "e445 (Fluorescein sodium salt)"
+            ],
+            "replicate": 2,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351160",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "e445 (Fluorescein sodium salt)"
+            ],
+            "replicate": 3,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351161",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 3,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351162",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 3,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351135",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 1,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351145",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 2,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351165",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "e445 (Fluorescein sodium salt)"
+            ],
+            "replicate": 1,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351166",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 2,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351157",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "e445 (Fluorescein sodium salt)"
+            ],
+            "replicate": 3,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351136",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 1,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351128",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 0,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351137",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 1,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351159",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "e445 (Fluorescein sodium salt)"
+            ],
+            "replicate": 3,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351138",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 1,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351139",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 1,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351140",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 1,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351141",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 1,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351129",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 0,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351227",
+            "contents": [
+                "e3411 (LUDOX CL-X colloidal silica)"
+            ],
+            "replicate": 2,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151984.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151984.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351163",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 3,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351223",
+            "contents": [
+                "e1993 (Sterile water)"
+            ],
+            "replicate": 2,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151984.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151984.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351164",
+            "contents": [
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "e445 (Fluorescein sodium salt)"
+            ],
+            "replicate": 0,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351144",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 2,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351221",
+            "contents": [
+                "e1993 (Sterile water)"
+            ],
+            "replicate": 0,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151984.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151984.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351222",
+            "contents": [
+                "e1993 (Sterile water)"
+            ],
+            "replicate": 1,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151984.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151984.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8317865",
+            "contents": [
+                "e3479 (Spherotech\u2122 Ultra Rainbow Calibration Particles, 4\u03bcm)"
+            ]
+        },
+        {
+            "sample_id": "8351224",
+            "contents": [
+                "e1993 (Sterile water)"
+            ],
+            "replicate": 3,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151984.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151984.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351225",
+            "contents": [
+                "e3411 (LUDOX CL-X colloidal silica)"
+            ],
+            "replicate": 0,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151984.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151984.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351226",
+            "contents": [
+                "e3411 (LUDOX CL-X colloidal silica)"
+            ],
+            "replicate": 1,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151984.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151984.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351167",
+            "contents": [
+                "e445 (Fluorescein sodium salt)",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+            ],
+            "replicate": 3,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151981.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8351228",
+            "contents": [
+                "e3411 (LUDOX CL-X colloidal silica)"
+            ],
+            "replicate": 3,
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151984.txt",
+                            "type": "TXT",
+                            "state": "RAW"
+                        },
+                        {
+                            "name": "attachments/biotek_multi_csv/e6980/c151984.txt",
+                            "type": "TXT",
+                            "state": "PROCESSED"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER",
+                    "measurement_name": "NC NAND Platereader"
+                }
+            ]
+        },
+        {
+            "sample_id": "8317866",
+            "contents": [
+                "e3480 (Spherotech\u2122 Particle Size Standard Kit)"
+            ]
+        }
+    ]
+}
