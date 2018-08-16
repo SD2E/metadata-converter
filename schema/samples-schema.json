@@ -196,8 +196,23 @@
             "type": "string"
         },
         "experiment_reference": {
-            "description": "a name, link, or id referring to the experimental request that created this experiment's data",
-            "type": "string"
+            "description": "experiment reference enumeration",
+            "type": "string",
+            "enum": [
+                "Novelchassis-Nand-Gate",
+                "Novelchassis-P-Fluorescens",
+                "Novelchassis-Parts-Discovery",
+                "Overview-Immortality",
+                "Pubdataanal-Immortality",
+                "Riboswitches",
+                "Yeast-Gates",
+                "Yeast-Tetr-Characterization",
+                "Yeaststates-3-Node-Bistable-Circuit",
+                "Yeaststates-Aptamer-Based-Parts",
+                "Yeaststates-Cello-Characterization",
+                "Yeaststates-Gander-Operational-Envelope",
+                "Yeaststates-Grna-Seq-Diagnosis"
+            ]
         },
         "lab": {
             "description": "lab identifier",
