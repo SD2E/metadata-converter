@@ -28,6 +28,7 @@ class SampleConstants():
     FILES = "files"
     MEASUREMENT_TYPE = "measurement_type"
     MEASUREMENT_NAME = "measurement_name"
+    MEASUREMENT_TMT_CHANNEL = "TMT_channel"
     MT_RNA_SEQ = "RNA_SEQ"
     MT_FLOW = "FLOW"
     MT_PLATE_READER = "PLATE_READER"

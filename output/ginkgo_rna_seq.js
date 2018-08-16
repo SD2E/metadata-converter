@@ -8,12 +8,18 @@
             "sample_id": "8309978",
             "contents": [
                 "e678 (Supplemented M9 medium, no carbon source)",
+                "29.296182E0:%",
                 "e2231 (RNA protect (Qiagen))",
                 "e1 (Glycerol)",
+                "673.573264E-6:%",
                 "e3170 (RNAprotect)",
+                "59.789474E0:%",
                 "e403 (D-(+)-Glucose (Dextrose))",
+                "597.881584E-3:%",
                 "e394 (Kanamycin Sulfate)",
-                "e395 (Chloramphenicol)"
+                "14.946526E-9:g/L",
+                "e395 (Chloramphenicol)",
+                "5.304523E-12:g/L"
             ],
             "strain": "t194570",
             "temperature": "37:celsius",

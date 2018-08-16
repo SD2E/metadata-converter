@@ -8,7 +8,9 @@
             "sample_id": "8351147",
             "contents": [
                 "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
-                "e445 (Fluorescein sodium salt)"
+                "1.0E0:X",
+                "e445 (Fluorescein sodium salt)",
+                "781.719E-9:M"
             ],
             "replicate": 2,
             "measurements": [
@@ -34,7 +36,9 @@
             "sample_id": "8351126",
             "contents": [
                 "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
-                "e445 (Fluorescein sodium salt)"
+                "1.0E0:X",
+                "e445 (Fluorescein sodium salt)",
+                "390.8595E-9:M"
             ],
             "replicate": 0,
             "measurements": [
@@ -60,7 +64,9 @@
             "sample_id": "8351127",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "195.42975E-9:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 0,
             "measurements": [
@@ -86,7 +92,9 @@
             "sample_id": "8351120",
             "contents": [
                 "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
-                "e445 (Fluorescein sodium salt)"
+                "1.0E0:X",
+                "e445 (Fluorescein sodium salt)",
+                "25.015E-6:M"
             ],
             "replicate": 0,
             "measurements": [
@@ -112,7 +120,9 @@
             "sample_id": "8351121",
             "contents": [
                 "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
-                "e445 (Fluorescein sodium salt)"
+                "1.0E0:X",
+                "e445 (Fluorescein sodium salt)",
+                "12.5075E-6:M"
             ],
             "replicate": 0,
             "measurements": [
@@ -138,7 +148,9 @@
             "sample_id": "8351122",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "6.25375E-6:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 0,
             "measurements": [
@@ -164,7 +176,9 @@
             "sample_id": "8351123",
             "contents": [
                 "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
-                "e445 (Fluorescein sodium salt)"
+                "1.0E0:X",
+                "e445 (Fluorescein sodium salt)",
+                "3.126875E-6:M"
             ],
             "replicate": 0,
             "measurements": [
@@ -190,7 +204,9 @@
             "sample_id": "8351124",
             "contents": [
                 "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
-                "e445 (Fluorescein sodium salt)"
+                "1.0E0:X",
+                "e445 (Fluorescein sodium salt)",
+                "1.563438E-6:M"
             ],
             "replicate": 0,
             "measurements": [
@@ -216,7 +232,9 @@
             "sample_id": "8351125",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "781.719E-9:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 0,
             "measurements": [
@@ -242,8 +260,11 @@
             "sample_id": "8293654",
             "contents": [
                 "e678 (Supplemented M9 medium, no carbon source)",
+                "98.0E0:%",
                 "e403 (D-(+)-Glucose (Dextrose))",
-                "e394 (Kanamycin Sulfate)"
+                "2.0E0:%",
+                "e394 (Kanamycin Sulfate)",
+                "50.0E-9:g/L"
             ],
             "replicate": 0,
             "measurements": [
@@ -270,8 +291,11 @@
             "sample_id": "8293655",
             "contents": [
                 "e403 (D-(+)-Glucose (Dextrose))",
+                "2.0E0:%",
                 "e394 (Kanamycin Sulfate)",
-                "e678 (Supplemented M9 medium, no carbon source)"
+                "50.0E-9:g/L",
+                "e678 (Supplemented M9 medium, no carbon source)",
+                "98.0E0:%"
             ],
             "replicate": 1,
             "measurements": [
@@ -298,8 +322,11 @@
             "sample_id": "8293656",
             "contents": [
                 "e394 (Kanamycin Sulfate)",
+                "50.0E-9:g/L",
                 "e678 (Supplemented M9 medium, no carbon source)",
-                "e403 (D-(+)-Glucose (Dextrose))"
+                "98.0E0:%",
+                "e403 (D-(+)-Glucose (Dextrose))",
+                "2.0E0:%"
             ],
             "replicate": 2,
             "measurements": [
@@ -326,8 +353,11 @@
             "sample_id": "8293657",
             "contents": [
                 "e394 (Kanamycin Sulfate)",
+                "50.0E-9:g/L",
                 "e403 (D-(+)-Glucose (Dextrose))",
-                "e678 (Supplemented M9 medium, no carbon source)"
+                "2.0E0:%",
+                "e678 (Supplemented M9 medium, no carbon source)",
+                "98.0E0:%"
             ],
             "replicate": 3,
             "measurements": [
@@ -353,7 +383,8 @@
         {
             "sample_id": "8351130",
             "contents": [
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 0,
             "measurements": [
@@ -379,7 +410,9 @@
             "sample_id": "8351131",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "25.015E-6:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 1,
             "measurements": [
@@ -405,7 +438,9 @@
             "sample_id": "8351132",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "12.5075E-6:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 1,
             "measurements": [
@@ -431,7 +466,9 @@
             "sample_id": "8351133",
             "contents": [
                 "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
-                "e445 (Fluorescein sodium salt)"
+                "1.0E0:X",
+                "e445 (Fluorescein sodium salt)",
+                "6.25375E-6:M"
             ],
             "replicate": 1,
             "measurements": [
@@ -457,8 +494,11 @@
             "sample_id": "8323742",
             "contents": [
                 "e394 (Kanamycin Sulfate)",
+                "50.0E-9:g/L",
                 "e403 (D-(+)-Glucose (Dextrose))",
-                "e678 (Supplemented M9 medium, no carbon source)"
+                "2.0E0:%",
+                "e678 (Supplemented M9 medium, no carbon source)",
+                "98.0E0:%"
             ],
             "replicate": 0,
             "measurements": [
@@ -495,8 +535,11 @@
             "sample_id": "8323743",
             "contents": [
                 "e403 (D-(+)-Glucose (Dextrose))",
+                "2.0E0:%",
                 "e678 (Supplemented M9 medium, no carbon source)",
-                "e394 (Kanamycin Sulfate)"
+                "98.0E0:%",
+                "e394 (Kanamycin Sulfate)",
+                "50.0E-9:g/L"
             ],
             "replicate": 0,
             "measurements": [
@@ -523,8 +566,11 @@
             "sample_id": "8323744",
             "contents": [
                 "e678 (Supplemented M9 medium, no carbon source)",
+                "98.0E0:%",
                 "e403 (D-(+)-Glucose (Dextrose))",
-                "e394 (Kanamycin Sulfate)"
+                "2.0E0:%",
+                "e394 (Kanamycin Sulfate)",
+                "50.0E-9:g/L"
             ],
             "replicate": 1,
             "measurements": [
@@ -561,8 +607,11 @@
             "sample_id": "8323745",
             "contents": [
                 "e394 (Kanamycin Sulfate)",
+                "50.0E-9:g/L",
                 "e678 (Supplemented M9 medium, no carbon source)",
-                "e403 (D-(+)-Glucose (Dextrose))"
+                "98.0E0:%",
+                "e403 (D-(+)-Glucose (Dextrose))",
+                "2.0E0:%"
             ],
             "replicate": 1,
             "measurements": [
@@ -589,8 +638,11 @@
             "sample_id": "8323746",
             "contents": [
                 "e678 (Supplemented M9 medium, no carbon source)",
+                "98.0E0:%",
                 "e394 (Kanamycin Sulfate)",
-                "e403 (D-(+)-Glucose (Dextrose))"
+                "50.0E-9:g/L",
+                "e403 (D-(+)-Glucose (Dextrose))",
+                "2.0E0:%"
             ],
             "replicate": 2,
             "measurements": [
@@ -627,8 +679,11 @@
             "sample_id": "8323747",
             "contents": [
                 "e394 (Kanamycin Sulfate)",
+                "50.0E-9:g/L",
                 "e403 (D-(+)-Glucose (Dextrose))",
-                "e678 (Supplemented M9 medium, no carbon source)"
+                "2.0E0:%",
+                "e678 (Supplemented M9 medium, no carbon source)",
+                "98.0E0:%"
             ],
             "replicate": 2,
             "measurements": [
@@ -655,8 +710,11 @@
             "sample_id": "8323748",
             "contents": [
                 "e394 (Kanamycin Sulfate)",
+                "50.0E-9:g/L",
                 "e403 (D-(+)-Glucose (Dextrose))",
-                "e678 (Supplemented M9 medium, no carbon source)"
+                "2.0E0:%",
+                "e678 (Supplemented M9 medium, no carbon source)",
+                "98.0E0:%"
             ],
             "replicate": 3,
             "measurements": [
@@ -693,8 +751,11 @@
             "sample_id": "8323749",
             "contents": [
                 "e403 (D-(+)-Glucose (Dextrose))",
+                "2.0E0:%",
                 "e678 (Supplemented M9 medium, no carbon source)",
-                "e394 (Kanamycin Sulfate)"
+                "98.0E0:%",
+                "e394 (Kanamycin Sulfate)",
+                "50.0E-9:g/L"
             ],
             "replicate": 3,
             "measurements": [
@@ -721,7 +782,9 @@
             "sample_id": "8351142",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "25.015E-6:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 2,
             "measurements": [
@@ -747,7 +810,9 @@
             "sample_id": "8351143",
             "contents": [
                 "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
-                "e445 (Fluorescein sodium salt)"
+                "1.0E0:X",
+                "e445 (Fluorescein sodium salt)",
+                "12.5075E-6:M"
             ],
             "replicate": 2,
             "measurements": [
@@ -773,8 +838,11 @@
             "sample_id": "8300456",
             "contents": [
                 "e403 (D-(+)-Glucose (Dextrose))",
+                "2.0E0:%",
                 "e678 (Supplemented M9 medium, no carbon source)",
-                "e394 (Kanamycin Sulfate)"
+                "98.0E0:%",
+                "e394 (Kanamycin Sulfate)",
+                "50.0E-9:g/L"
             ],
             "replicate": 0,
             "measurements": [
@@ -801,8 +869,11 @@
             "sample_id": "8300457",
             "contents": [
                 "e394 (Kanamycin Sulfate)",
+                "50.0E-9:g/L",
                 "e678 (Supplemented M9 medium, no carbon source)",
-                "e403 (D-(+)-Glucose (Dextrose))"
+                "98.0E0:%",
+                "e403 (D-(+)-Glucose (Dextrose))",
+                "2.0E0:%"
             ],
             "replicate": 1,
             "measurements": [
@@ -829,8 +900,11 @@
             "sample_id": "8300458",
             "contents": [
                 "e678 (Supplemented M9 medium, no carbon source)",
+                "98.0E0:%",
                 "e394 (Kanamycin Sulfate)",
-                "e403 (D-(+)-Glucose (Dextrose))"
+                "50.0E-9:g/L",
+                "e403 (D-(+)-Glucose (Dextrose))",
+                "2.0E0:%"
             ],
             "replicate": 2,
             "measurements": [
@@ -857,8 +931,11 @@
             "sample_id": "8300459",
             "contents": [
                 "e403 (D-(+)-Glucose (Dextrose))",
+                "2.0E0:%",
                 "e394 (Kanamycin Sulfate)",
-                "e678 (Supplemented M9 medium, no carbon source)"
+                "50.0E-9:g/L",
+                "e678 (Supplemented M9 medium, no carbon source)",
+                "98.0E0:%"
             ],
             "replicate": 3,
             "measurements": [
@@ -885,7 +962,9 @@
             "sample_id": "8351148",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "390.8595E-9:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 2,
             "measurements": [
@@ -911,7 +990,9 @@
             "sample_id": "8351149",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "195.42975E-9:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 2,
             "measurements": [
@@ -937,7 +1018,9 @@
             "sample_id": "8351150",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "97.714875E-9:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 2,
             "measurements": [
@@ -963,7 +1046,9 @@
             "sample_id": "8351151",
             "contents": [
                 "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
-                "e445 (Fluorescein sodium salt)"
+                "1.0E0:X",
+                "e445 (Fluorescein sodium salt)",
+                "48.857438E-9:M"
             ],
             "replicate": 2,
             "measurements": [
@@ -988,7 +1073,8 @@
         {
             "sample_id": "8351152",
             "contents": [
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 2,
             "measurements": [
@@ -1014,7 +1100,9 @@
             "sample_id": "8351153",
             "contents": [
                 "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
-                "e445 (Fluorescein sodium salt)"
+                "1.0E0:X",
+                "e445 (Fluorescein sodium salt)",
+                "25.015E-6:M"
             ],
             "replicate": 3,
             "measurements": [
@@ -1040,7 +1128,9 @@
             "sample_id": "8351154",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "12.5075E-6:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 3,
             "measurements": [
@@ -1066,7 +1156,9 @@
             "sample_id": "8351155",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "6.25375E-6:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 3,
             "measurements": [
@@ -1092,7 +1184,9 @@
             "sample_id": "8351156",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "3.126875E-6:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 3,
             "measurements": [
@@ -1118,7 +1212,9 @@
             "sample_id": "8351134",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "3.126875E-6:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 1,
             "measurements": [
@@ -1144,7 +1240,9 @@
             "sample_id": "8351158",
             "contents": [
                 "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
-                "e445 (Fluorescein sodium salt)"
+                "1.0E0:X",
+                "e445 (Fluorescein sodium salt)",
+                "781.719E-9:M"
             ],
             "replicate": 3,
             "measurements": [
@@ -1170,7 +1268,9 @@
             "sample_id": "8351146",
             "contents": [
                 "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
-                "e445 (Fluorescein sodium salt)"
+                "1.0E0:X",
+                "e445 (Fluorescein sodium salt)",
+                "1.563438E-6:M"
             ],
             "replicate": 2,
             "measurements": [
@@ -1196,7 +1296,9 @@
             "sample_id": "8351160",
             "contents": [
                 "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
-                "e445 (Fluorescein sodium salt)"
+                "1.0E0:X",
+                "e445 (Fluorescein sodium salt)",
+                "195.42975E-9:M"
             ],
             "replicate": 3,
             "measurements": [
@@ -1222,7 +1324,9 @@
             "sample_id": "8351161",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "97.714875E-9:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 3,
             "measurements": [
@@ -1248,7 +1352,9 @@
             "sample_id": "8351162",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "48.857438E-9:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 3,
             "measurements": [
@@ -1274,7 +1380,9 @@
             "sample_id": "8351135",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "1.563438E-6:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 1,
             "measurements": [
@@ -1300,7 +1408,9 @@
             "sample_id": "8351145",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "3.126875E-6:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 2,
             "measurements": [
@@ -1326,7 +1436,9 @@
             "sample_id": "8351165",
             "contents": [
                 "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
-                "e445 (Fluorescein sodium salt)"
+                "1.0E0:X",
+                "e445 (Fluorescein sodium salt)",
+                "50.03E-6:M"
             ],
             "replicate": 1,
             "measurements": [
@@ -1352,7 +1464,9 @@
             "sample_id": "8351166",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "50.03E-6:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 2,
             "measurements": [
@@ -1378,7 +1492,9 @@
             "sample_id": "8351157",
             "contents": [
                 "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
-                "e445 (Fluorescein sodium salt)"
+                "1.0E0:X",
+                "e445 (Fluorescein sodium salt)",
+                "1.563438E-6:M"
             ],
             "replicate": 3,
             "measurements": [
@@ -1404,7 +1520,9 @@
             "sample_id": "8351136",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "781.719E-9:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 1,
             "measurements": [
@@ -1430,7 +1548,9 @@
             "sample_id": "8351128",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "97.714875E-9:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 0,
             "measurements": [
@@ -1456,7 +1576,9 @@
             "sample_id": "8351137",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "390.8595E-9:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 1,
             "measurements": [
@@ -1482,7 +1604,9 @@
             "sample_id": "8351159",
             "contents": [
                 "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
-                "e445 (Fluorescein sodium salt)"
+                "1.0E0:X",
+                "e445 (Fluorescein sodium salt)",
+                "390.8595E-9:M"
             ],
             "replicate": 3,
             "measurements": [
@@ -1508,7 +1632,9 @@
             "sample_id": "8351138",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "195.42975E-9:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 1,
             "measurements": [
@@ -1534,7 +1660,9 @@
             "sample_id": "8351139",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "97.714875E-9:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 1,
             "measurements": [
@@ -1560,7 +1688,9 @@
             "sample_id": "8351140",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "48.857438E-9:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 1,
             "measurements": [
@@ -1585,7 +1715,8 @@
         {
             "sample_id": "8351141",
             "contents": [
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 1,
             "measurements": [
@@ -1611,7 +1742,9 @@
             "sample_id": "8351129",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "48.857438E-9:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 0,
             "measurements": [
@@ -1636,7 +1769,8 @@
         {
             "sample_id": "8351227",
             "contents": [
-                "e3411 (LUDOX CL-X colloidal silica)"
+                "e3411 (LUDOX CL-X colloidal silica)",
+                "45.0E0:%"
             ],
             "replicate": 2,
             "measurements": [
@@ -1661,7 +1795,8 @@
         {
             "sample_id": "8351163",
             "contents": [
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 3,
             "measurements": [
@@ -1712,7 +1847,9 @@
             "sample_id": "8351164",
             "contents": [
                 "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
-                "e445 (Fluorescein sodium salt)"
+                "1.0E0:X",
+                "e445 (Fluorescein sodium salt)",
+                "50.03E-6:M"
             ],
             "replicate": 0,
             "measurements": [
@@ -1738,7 +1875,9 @@
             "sample_id": "8351144",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "6.25375E-6:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 2,
             "measurements": [
@@ -1844,7 +1983,8 @@
         {
             "sample_id": "8351225",
             "contents": [
-                "e3411 (LUDOX CL-X colloidal silica)"
+                "e3411 (LUDOX CL-X colloidal silica)",
+                "45.0E0:%"
             ],
             "replicate": 0,
             "measurements": [
@@ -1869,7 +2009,8 @@
         {
             "sample_id": "8351226",
             "contents": [
-                "e3411 (LUDOX CL-X colloidal silica)"
+                "e3411 (LUDOX CL-X colloidal silica)",
+                "45.0E0:%"
             ],
             "replicate": 1,
             "measurements": [
@@ -1895,7 +2036,9 @@
             "sample_id": "8351167",
             "contents": [
                 "e445 (Fluorescein sodium salt)",
-                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))"
+                "50.03E-6:M",
+                "e20 (Dulbecco's Phosphate Buffered Saline (DPBS Modified))",
+                "1.0E0:X"
             ],
             "replicate": 3,
             "measurements": [
@@ -1920,7 +2063,8 @@
         {
             "sample_id": "8351228",
             "contents": [
-                "e3411 (LUDOX CL-X colloidal silica)"
+                "e3411 (LUDOX CL-X colloidal silica)",
+                "45.0E0:%"
             ],
             "replicate": 3,
             "measurements": [

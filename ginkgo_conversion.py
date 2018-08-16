@@ -30,6 +30,9 @@ def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
         for reagent in gingko_sample["content"]["reagent"]:
             # TODO librarian mapping
             reagents.append(reagent["name"])
+            concentration_prop = "concentration"
+            if concentration_prop in reagent:
+                reagents.append(reagent[concentration_prop])
         sample_doc[SampleConstants.CONTENTS] = reagents
 
         for strain in gingko_sample["content"]["strain"]:
@@ -74,7 +77,9 @@ def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
 
             measurement_doc[SampleConstants.FILES] = []
 
-            assay_type = gingko_sample["measurements"][measurement_key]["assay_type"]
+            measurement_props = gingko_sample["measurements"][measurement_key]
+
+            assay_type = measurement_props["assay_type"]
             if assay_type == "NGS (RNA)":
                 measurement_type = SampleConstants.MT_RNA_SEQ
             elif assay_type == "FACS":
@@ -87,11 +92,14 @@ def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
                 raise ValueError("Could not parse MT: {}".format(assay_type))
 
             measurement_doc[SampleConstants.MEASUREMENT_TYPE] = measurement_type
-            measurement_doc[SampleConstants.MEASUREMENT_NAME] = gingko_sample["measurements"][measurement_key]["measurement_name"]
+            measurement_doc[SampleConstants.MEASUREMENT_NAME] = measurement_props["measurement_name"]
+            tmt_prop = "TMT_channel"
+            if tmt_prop in measurement_props:
+                measurement_doc[SampleConstants.MEASUREMENT_TMT_CHANNEL] = measurement_props[tmt_prop]
 
-            for key in gingko_sample["measurements"][measurement_key]["dataset_files"].keys():
+            for key in measurement_props["dataset_files"].keys():
                 if key == "processed":
-                    for processed in gingko_sample["measurements"][measurement_key]["dataset_files"]["processed"]:
+                    for processed in measurement_props["dataset_files"]["processed"]:
                         for sub_processed in processed:
                             file_type = infer_file_type(sub_processed)
                             measurement_doc[SampleConstants.FILES].append(
@@ -99,7 +107,7 @@ def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
                                 SampleConstants.M_TYPE : file_type, \
                                 SampleConstants.M_STATE : SampleConstants.M_STATE_PROCESSED})
                 elif key == "raw":
-                    for raw in gingko_sample["measurements"][measurement_key]["dataset_files"]["raw"]:
+                    for raw in measurement_props["dataset_files"]["raw"]:
                         for sub_raw in raw:
                             file_type = infer_file_type(sub_raw)
                             measurement_doc[SampleConstants.FILES].append(

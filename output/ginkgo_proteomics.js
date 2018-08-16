@@ -8,11 +8,16 @@
             "sample_id": "8309785",
             "contents": [
                 "e394 (Kanamycin Sulfate)",
+                "99.795E-12:g/L",
                 "e403 (D-(+)-Glucose (Dextrose))",
+                "3.992E-3:%",
                 "e2420 (7M Urea & 2M Thiourea Proteomics Lysis Buffer)",
                 "e678 (Supplemented M9 medium, no carbon source)",
+                "195.604E-3:%",
                 "e1 (Glycerol)",
-                "e395 (Chloramphenicol)"
+                "4.497E-6:%",
+                "e395 (Chloramphenicol)",
+                "35.417E-15:g/L"
             ],
             "strain": "t194570",
             "temperature": "37:celsius",
@@ -93,7 +98,8 @@
                         }
                     ],
                     "measurement_type": "PROTEOMICS",
-                    "measurement_name": "s27 Global Proteomics with Relative Quantification for w14096 (QE HF-X)"
+                    "measurement_name": "s27 Global Proteomics with Relative Quantification for w14096 (QE HF-X)",
+                    "TMT_channel": "TMT10-128C"
                 }
             ]
         }
