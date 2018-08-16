@@ -248,6 +248,7 @@
             "replicate": 0,
             "measurements": [
                 {
+                    "timepoint": "-3:hour",
                     "files": [
                         {
                             "name": "attachments/biotek_multi_csv/e6980/c151061.txt",
@@ -275,6 +276,7 @@
             "replicate": 1,
             "measurements": [
                 {
+                    "timepoint": "-3:hour",
                     "files": [
                         {
                             "name": "attachments/biotek_multi_csv/e6980/c151061.txt",
@@ -302,6 +304,7 @@
             "replicate": 2,
             "measurements": [
                 {
+                    "timepoint": "-3:hour",
                     "files": [
                         {
                             "name": "attachments/biotek_multi_csv/e6980/c151061.txt",
@@ -329,6 +332,7 @@
             "replicate": 3,
             "measurements": [
                 {
+                    "timepoint": "-3:hour",
                     "files": [
                         {
                             "name": "attachments/biotek_multi_csv/e6980/c151061.txt",
@@ -775,6 +779,7 @@
             "replicate": 0,
             "measurements": [
                 {
+                    "timepoint": "0:hour",
                     "files": [
                         {
                             "name": "attachments/biotek_multi_csv/e6980/c151139.txt",
@@ -802,6 +807,7 @@
             "replicate": 1,
             "measurements": [
                 {
+                    "timepoint": "0:hour",
                     "files": [
                         {
                             "name": "attachments/biotek_multi_csv/e6980/c151139.txt",
@@ -829,6 +835,7 @@
             "replicate": 2,
             "measurements": [
                 {
+                    "timepoint": "0:hour",
                     "files": [
                         {
                             "name": "attachments/biotek_multi_csv/e6980/c151139.txt",
@@ -856,6 +863,7 @@
             "replicate": 3,
             "measurements": [
                 {
+                    "timepoint": "0:hour",
                     "files": [
                         {
                             "name": "attachments/biotek_multi_csv/e6980/c151139.txt",

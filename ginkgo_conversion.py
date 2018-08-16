@@ -60,13 +60,18 @@ def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
             time_prop = "SD2_timepoint"
             if time_prop in props:
                 time_val = props[time_prop]
-                if time_val == "pre-pre-induction" or time_val == "pre-induction":
-                    print("Time val not recognized, skipping {}".format(time_val))
-                else:
-                    # more cleanup
-                    if time_val.endswith("hours"):
-                        time_val = time_val.replace("hours", "hour")
-                    measurement_doc[SampleConstants.TIMEPOINT] = time_val
+                if time_val == "pre-pre-induction":
+                    print("Warning: time val is not discrete, replacing fixed value!".format(time_val))
+                    time_val = "-3:hour"
+                elif time_val == "pre-induction":
+                    print("Warning: time val is not discrete, replacing fixed value!".format(time_val))
+                    time_val = "0:hour"
+
+                # more cleanup
+                if time_val.endswith("hours"):
+                    time_val = time_val.replace("hours", "hour")
+                measurement_doc[SampleConstants.TIMEPOINT] = time_val
+
             measurement_doc[SampleConstants.FILES] = []
 
             assay_type = gingko_sample["measurements"][measurement_key]["assay_type"]
