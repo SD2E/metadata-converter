@@ -1,7 +1,7 @@
 {
     "experiment_id": "UNKNOWN",
     "challenge_problem": "UNKNOWN",
-    "experiment_reference": "UNKNOWN",
+    "experiment_reference": "Unknown",
     "lab": "Ginkgo",
     "samples": [
         {

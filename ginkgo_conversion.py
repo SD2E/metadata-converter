@@ -17,7 +17,7 @@ def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
     # TODO cannot map yet
     output_doc[SampleConstants.EXPERIMENT_ID] = "UNKNOWN"
     output_doc[SampleConstants.CHALLENGE_PROBLEM] = "UNKNOWN"
-    output_doc[SampleConstants.EXPERIMENT_REFERENCE] = "UNKNOWN"
+    output_doc[SampleConstants.EXPERIMENT_REFERENCE] = SampleConstants.CP_REF_UNKNOWN
 
     output_doc[SampleConstants.LAB] = SampleConstants.LAB_GINKGO
     output_doc[SampleConstants.SAMPLES] = []

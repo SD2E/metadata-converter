@@ -7,6 +7,9 @@ class SampleConstants():
     #experiment
     EXPERIMENT_ID = "experiment_id"
     CHALLENGE_PROBLEM = "challenge_problem"
+
+    CP_REF_UNKNOWN = "Unknown"
+
     EXPERIMENT_REFERENCE = "experiment_reference"
     LAB = "lab"
     LAB_GINKGO = "Ginkgo"
