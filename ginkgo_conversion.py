@@ -152,7 +152,7 @@ def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
         #if verbose:
             #print(json.dumps(output_doc, indent=4))
         if output:
-            path = os.path.join("output", os.path.basename(input_file))
+            path = os.path.join("output/ginkgo", os.path.basename(input_file))
             with open(path, 'w') as outfile:
                 json.dump(output_doc, outfile, indent=4)
         return True
