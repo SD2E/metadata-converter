@@ -45,25 +45,17 @@ def convert_biofab(schema_file, input_file, verbose=True, output=True):
         #print(plate)
         reagents = []
 
-        media_attr = "type_of_media"
-        if media_attr not in plate:
-            # try one more lookup
-            plate_source = plate["sources"][0]
-            plate_source_lookup = jq(".items[] | select(.item_id==\"" + plate_source + "\")").transform(biofab_doc)
-            # TODO librarian mapping
-            #print(plate_source_lookup)
-            reagents.append(plate_source_lookup["attributes"][media_attr])
-            temperature = plate_source_lookup["attributes"]["growth_temperature"]
-            sample_doc[SampleConstants.TEMPERATURE] = str(temperature) + ":celsius"
-        else:
-            # TODO librarian mapping
-            reagents.append(plate[media_attr])
-            temperature = plate["attributes"]["growth_temperature"]
-            sample_doc[SampleConstants.TEMPERATURE] = temperature + ":celsius"
-            raise Exception("foo")
+        # one additional lookup
+        plate_source = plate["sources"][0]
+        plate_source_lookup = jq(".items[] | select(.item_id==\"" + plate_source + "\")").transform(biofab_doc)
+        # TODO librarian mapping
+        #print(plate_source_lookup)
+        reagents.append(plate_source_lookup["attributes"]["type_of_media"])
+        temperature = plate_source_lookup["attributes"]["growth_temperature"]
+        sample_doc[SampleConstants.TEMPERATURE] = str(temperature) + ":celsius"
+
         sample_doc[SampleConstants.CONTENTS] = reagents
 
-        
         # TODO librarian mapping
         # could use ID
         #print(item)
@@ -77,6 +69,7 @@ def convert_biofab(schema_file, input_file, verbose=True, output=True):
         #  "value": "6"
 
         # skip controls for now
+        # code from Ginkgo doc...
         """    
         control_for_prop = "control_for_samples"
         sbh_uri_prop = "SD2_SBH_URI"
@@ -115,9 +108,10 @@ def convert_biofab(schema_file, input_file, verbose=True, output=True):
             raise ValueError("Could not parse MT: {}".format(assay_type))
 
         measurement_doc[SampleConstants.MEASUREMENT_TYPE] = measurement_type
-        
+
         # TODO
         #measurement_doc[SampleConstants.MEASUREMENT_NAME] = measurement_props["measurement_name"]
+
         file_name = biofab_sample["filename"]
         file_type = SampleConstants.infer_file_type(file_name)
         measurement_doc[SampleConstants.FILES].append(
