@@ -122,7 +122,7 @@ def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
                 if key == "processed":
                     for processed in measurement_props["dataset_files"]["processed"]:
                         for sub_processed in processed:
-                            file_type = infer_file_type(sub_processed)
+                            file_type = SampleConstants.infer_file_type(sub_processed)
                             measurement_doc[SampleConstants.FILES].append(
                                 { SampleConstants.M_NAME : sub_processed, \
                                 SampleConstants.M_TYPE : file_type, \
@@ -130,7 +130,7 @@ def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
                 elif key == "raw":
                     for raw in measurement_props["dataset_files"]["raw"]:
                         for sub_raw in raw:
-                            file_type = infer_file_type(sub_raw)
+                            file_type = SampleConstants.infer_file_type(sub_raw)
                             measurement_doc[SampleConstants.FILES].append(
                                 { SampleConstants.M_NAME : sub_raw, \
                                 SampleConstants.M_TYPE : file_type,
@@ -160,29 +160,6 @@ def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
         if verbose:
             print("Schema Validation Error: {0}\n".format(err))
         return False
-
-"""Obvious issues with this, welcome something more robust.
-"""
-def infer_file_type(file_name):
-    if file_name.endswith("fastq.gz"):
-        return SampleConstants.F_TYPE_FASTQ
-    elif file_name.endswith("zip"):
-        return SampleConstants.F_TYPE_ZIP
-    elif file_name.endswith("fcs"):
-        return SampleConstants.F_TYPE_FCS
-    elif file_name.endswith("sraw"):
-        return SampleConstants.F_TYPE_SRAW
-    elif file_name.endswith("txt"):
-        return SampleConstants.F_TYPE_TXT
-    elif file_name.endswith("csv"):
-        return SampleConstants.F_TYPE_CSV
-    elif file_name.endswith("mzML"):
-        return SampleConstants.F_TYPE_MZML
-    elif file_name.endswith("msf"):
-        return SampleConstants.F_TYPE_MSF
-    else:
-        raise ValueError("Could not parse FT: {}".format(file_name))
-
 
 if __name__ == "__main__":
     path = sys.argv[2]
