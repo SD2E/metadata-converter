@@ -4,6 +4,29 @@
 """
 class SampleConstants():
 
+    """Obvious issues with this, welcome something more robust.
+    """
+    def infer_file_type(file_name):
+
+        if file_name.endswith("fastq.gz"):
+            return SampleConstants.F_TYPE_FASTQ
+        elif file_name.endswith("zip"):
+            return SampleConstants.F_TYPE_ZIP
+        elif file_name.endswith("fcs"):
+            return SampleConstants.F_TYPE_FCS
+        elif file_name.endswith("sraw"):
+            return SampleConstants.F_TYPE_SRAW
+        elif file_name.endswith("txt"):
+            return SampleConstants.F_TYPE_TXT
+        elif file_name.endswith("csv"):
+            return SampleConstants.F_TYPE_CSV
+        elif file_name.endswith("mzML"):
+            return SampleConstants.F_TYPE_MZML
+        elif file_name.endswith("msf"):
+            return SampleConstants.F_TYPE_MSF
+        else:
+            raise ValueError("Could not parse FT: {}".format(file_name))
+
     #experiment
     EXPERIMENT_ID = "experiment_id"
     CHALLENGE_PROBLEM = "challenge_problem"
