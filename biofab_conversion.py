@@ -34,23 +34,41 @@ def convert_biofab(schema_file, input_file, verbose=True, output=True):
         
         # plate this source is a part of?
         #print(item) 
+        type_of_media_attr = "type_of_media"
         part_of_attr = "part_of"
+        attributes_attr = "attributes"
+        plate = None
+        found_plate = False
+        part_of = None
         if part_of_attr not in item:
-            print("TODO, parse: {}".format(file_source))
-            continue
-
-        part_of = item[part_of_attr]
-        plate = jq(".items[] | select(.item_id==\"" + part_of + "\")").transform(biofab_doc)
+            #print(item)
+            if attributes_attr in item and type_of_media_attr in item[attributes_attr]:
+                # use ourself instead of doing part_of
+                plate = item
+                found_plate = True
+                part_of = file_source
+            else:
+                print("TODO, parse: {}".format(file_source))
+                continue
+        else:
+            part_of = item[part_of_attr]
+            plate = jq(".items[] | select(.item_id==\"" + part_of + "\")").transform(biofab_doc)
 
         #print(plate)
         reagents = []
 
+        plate_source_lookup = None
+        plate_source = None
         # one additional lookup
-        plate_source = plate["sources"][0]
-        plate_source_lookup = jq(".items[] | select(.item_id==\"" + plate_source + "\")").transform(biofab_doc)
+        if found_plate:
+            plate_source = plate["sources"][0]
+            plate_source_lookup = plate
+        else:
+            plate_source = plate["sources"][0]
+            plate_source_lookup = jq(".items[] | select(.item_id==\"" + plate_source + "\")").transform(biofab_doc)
         # TODO librarian mapping
         #print(plate_source_lookup)
-        reagents.append(plate_source_lookup["attributes"]["type_of_media"])
+        reagents.append(plate_source_lookup[attributes_attr][type_of_media_attr])
         temperature = plate_source_lookup["attributes"]["growth_temperature"]
         sample_doc[SampleConstants.TEMPERATURE] = str(temperature) + ":celsius"
 
@@ -59,8 +77,10 @@ def convert_biofab(schema_file, input_file, verbose=True, output=True):
         # TODO librarian mapping
         # could use ID
         #print(item)
-        strain = item["sample"]["sample_name"]
-        sample_doc[SampleConstants.STRAIN] = strain
+        sample_attr = "sample"
+        if sample_attr in item:
+            strain = item[sample_attr]["sample_name"]
+            sample_doc[SampleConstants.STRAIN] = strain
 
         # TODO replicate
         # Compute this? Biofab knows the number of replicates, but does not individually tag...
@@ -92,9 +112,9 @@ def convert_biofab(schema_file, input_file, verbose=True, output=True):
                 print("Unknown control for sample: {}".format(sample_doc[SampleConstants.SAMPLE_ID]))
         """
         measurement_doc = {}
-        #print(part_of)
+        #print(part_of):
         try:
-            time_val = jq(".operations[] | select(.inputs[].item_id ==\"" + part_of + "\").inputs[] | select (.name == \"Timepoint (hr)\").value").transform(biofab_doc)
+            time_val = jq(".operations[] | select(.inputs[].item_id ==\"" + plate_source + "\").inputs[] | select (.name == \"Timepoint (hr)\").value").transform(biofab_doc)
             measurement_doc[SampleConstants.TIMEPOINT] = time_val + ":hour"
         except StopIteration:
             print("Warning: Could not find matching time value for {}".format(part_of))
@@ -104,6 +124,8 @@ def convert_biofab(schema_file, input_file, verbose=True, output=True):
         assay_type = biofab_sample["type"]
         if assay_type == "FCS": 
             measurement_type = SampleConstants.MT_FLOW
+        elif assay_type == "CSV":
+            measurement_type = SampleConstants.MT_PLATE_READER
         else:
             raise ValueError("Could not parse MT: {}".format(assay_type))
 

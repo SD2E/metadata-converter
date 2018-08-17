@@ -5,6 +5,120 @@
     "lab": "UW_BIOFAB",
     "samples": [
         {
+            "sample_id": "143042",
+            "temperature": "30:celsius",
+            "contents": [
+                "Synthetic_Complete"
+            ],
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "jid_71807_item_143042_16hr_07102018_od.csv",
+                            "type": "CSV",
+                            "state": "RAW"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER"
+                }
+            ]
+        },
+        {
+            "sample_id": "143042",
+            "temperature": "30:celsius",
+            "contents": [
+                "Synthetic_Complete"
+            ],
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "jid_71807_item_143042_16hr_07102018_gfp.csv",
+                            "type": "CSV",
+                            "state": "RAW"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER"
+                }
+            ]
+        },
+        {
+            "sample_id": "143043",
+            "temperature": "30:celsius",
+            "contents": [
+                "SC_Sorbitol"
+            ],
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "jid_71833_item_143043_16hr_07102018_od.csv",
+                            "type": "CSV",
+                            "state": "RAW"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER"
+                }
+            ]
+        },
+        {
+            "sample_id": "143043",
+            "temperature": "30:celsius",
+            "contents": [
+                "SC_Sorbitol"
+            ],
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "jid_71833_item_143043_16hr_07102018_gfp.csv",
+                            "type": "CSV",
+                            "state": "RAW"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER"
+                }
+            ]
+        },
+        {
+            "sample_id": "143044",
+            "temperature": "30:celsius",
+            "contents": [
+                "YPAD"
+            ],
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "jid_71811_item_143044_16hr_07102018_od.csv",
+                            "type": "CSV",
+                            "state": "RAW"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER"
+                }
+            ]
+        },
+        {
+            "sample_id": "143044",
+            "temperature": "30:celsius",
+            "contents": [
+                "YPAD"
+            ],
+            "measurements": [
+                {
+                    "files": [
+                        {
+                            "name": "jid_71811_item_143044_16hr_07102018_gfp.csv",
+                            "type": "CSV",
+                            "state": "RAW"
+                        }
+                    ],
+                    "measurement_type": "PLATE_READER"
+                }
+            ]
+        },
+        {
             "sample_id": "143184/C4",
             "temperature": "30:celsius",
             "contents": [
@@ -13,6 +127,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C04.fcs",
@@ -33,6 +148,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A01.fcs",
@@ -53,6 +169,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F09.fcs",
@@ -73,6 +190,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D11.fcs",
@@ -93,6 +211,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C05.fcs",
@@ -113,6 +232,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP__X__pMOD8A-RGR-W10",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H09.fcs",
@@ -133,6 +253,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B08.fcs",
@@ -153,6 +274,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A11.fcs",
@@ -173,6 +295,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E04.fcs",
@@ -193,6 +316,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G12.fcs",
@@ -213,6 +337,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G07.fcs",
@@ -233,6 +358,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A09.fcs",
@@ -253,6 +379,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H03.fcs",
@@ -273,6 +400,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D02.fcs",
@@ -293,6 +421,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B04.fcs",
@@ -313,6 +442,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A02.fcs",
@@ -333,6 +463,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A03.fcs",
@@ -353,6 +484,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B06.fcs",
@@ -373,6 +505,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C08.fcs",
@@ -393,6 +526,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A04.fcs",
@@ -413,6 +547,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A08.fcs",
@@ -433,6 +568,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A05.fcs",
@@ -453,6 +589,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A06.fcs",
@@ -473,6 +610,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A12.fcs",
@@ -493,6 +631,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A10.fcs",
@@ -513,6 +652,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A07.fcs",
@@ -533,6 +673,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B02.fcs",
@@ -553,6 +694,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B03.fcs",
@@ -573,6 +715,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B01.fcs",
@@ -593,6 +736,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B07.fcs",
@@ -613,6 +757,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B05.fcs",
@@ -633,6 +778,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B11.fcs",
@@ -653,6 +799,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B10.fcs",
@@ -673,6 +820,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B12.fcs",
@@ -693,6 +841,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B09.fcs",
@@ -713,6 +862,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C01.fcs",
@@ -733,6 +883,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C03.fcs",
@@ -753,6 +904,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C02.fcs",
@@ -773,6 +925,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C09.fcs",
@@ -793,6 +946,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C06.fcs",
@@ -813,6 +967,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C10.fcs",
@@ -833,6 +988,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C11.fcs",
@@ -853,6 +1009,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C07.fcs",
@@ -873,6 +1030,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C12.fcs",
@@ -893,6 +1051,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D03.fcs",
@@ -913,6 +1072,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D04.fcs",
@@ -933,6 +1093,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D07.fcs",
@@ -953,6 +1114,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D05.fcs",
@@ -973,6 +1135,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D06.fcs",
@@ -993,6 +1156,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D09.fcs",
@@ -1013,6 +1177,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D10.fcs",
@@ -1033,6 +1198,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D08.fcs",
@@ -1053,6 +1219,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D12.fcs",
@@ -1073,6 +1240,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E02.fcs",
@@ -1093,6 +1261,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E01.fcs",
@@ -1113,6 +1282,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E05.fcs",
@@ -1133,6 +1303,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E03.fcs",
@@ -1153,6 +1324,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E07.fcs",
@@ -1173,6 +1345,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E08.fcs",
@@ -1193,6 +1366,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E06.fcs",
@@ -1213,6 +1387,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D01.fcs",
@@ -1233,6 +1408,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E09.fcs",
@@ -1253,6 +1429,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E11.fcs",
@@ -1273,6 +1450,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E10.fcs",
@@ -1293,6 +1471,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E12.fcs",
@@ -1313,6 +1492,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F03.fcs",
@@ -1333,6 +1513,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F04.fcs",
@@ -1353,6 +1534,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F02.fcs",
@@ -1373,6 +1555,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F01.fcs",
@@ -1393,6 +1576,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F06.fcs",
@@ -1413,6 +1597,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F05.fcs",
@@ -1433,6 +1618,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F10.fcs",
@@ -1453,6 +1639,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F11.fcs",
@@ -1473,6 +1660,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F08.fcs",
@@ -1493,6 +1681,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F07.fcs",
@@ -1513,6 +1702,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G01.fcs",
@@ -1533,6 +1723,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G02.fcs",
@@ -1553,6 +1744,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F12.fcs",
@@ -1573,6 +1765,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G03.fcs",
@@ -1593,6 +1786,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G05.fcs",
@@ -1613,6 +1807,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G06.fcs",
@@ -1633,6 +1828,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G04.fcs",
@@ -1653,6 +1849,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G10.fcs",
@@ -1673,6 +1870,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G09.fcs",
@@ -1693,6 +1891,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G08.fcs",
@@ -1713,6 +1912,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G11.fcs",
@@ -1733,6 +1933,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H05.fcs",
@@ -1753,6 +1954,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H02.fcs",
@@ -1773,6 +1975,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H06.fcs",
@@ -1793,6 +1996,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H07.fcs",
@@ -1813,6 +2017,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H01.fcs",
@@ -1833,6 +2038,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H04.fcs",
@@ -1853,6 +2059,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H08.fcs",
@@ -1873,6 +2080,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E06.fcs",
@@ -1893,6 +2101,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F12.fcs",
@@ -1913,6 +2122,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B06.fcs",
@@ -1933,6 +2143,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C05.fcs",
@@ -1953,6 +2164,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A06.fcs",
@@ -1973,6 +2185,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H06.fcs",
@@ -1993,6 +2206,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H05.fcs",
@@ -2013,6 +2227,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A08.fcs",
@@ -2033,6 +2248,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C06.fcs",
@@ -2053,6 +2269,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G11.fcs",
@@ -2073,6 +2290,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G09.fcs",
@@ -2093,6 +2311,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A04.fcs",
@@ -2113,6 +2332,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A12.fcs",
@@ -2133,6 +2353,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C10.fcs",
@@ -2153,6 +2374,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H02.fcs",
@@ -2173,6 +2395,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B07.fcs",
@@ -2193,6 +2416,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F08.fcs",
@@ -2213,6 +2437,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A02.fcs",
@@ -2233,6 +2458,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B12.fcs",
@@ -2253,6 +2479,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A09.fcs",
@@ -2273,6 +2500,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A07.fcs",
@@ -2293,6 +2521,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A10.fcs",
@@ -2313,6 +2542,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D05.fcs",
@@ -2333,6 +2563,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F01.fcs",
@@ -2353,6 +2584,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A03.fcs",
@@ -2373,6 +2605,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A01.fcs",
@@ -2393,6 +2626,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A11.fcs",
@@ -2413,6 +2647,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A05.fcs",
@@ -2433,6 +2668,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B02.fcs",
@@ -2453,6 +2689,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B01.fcs",
@@ -2473,6 +2710,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B05.fcs",
@@ -2493,6 +2731,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B04.fcs",
@@ -2513,6 +2752,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B08.fcs",
@@ -2533,6 +2773,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B03.fcs",
@@ -2553,6 +2794,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B10.fcs",
@@ -2573,6 +2815,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B09.fcs",
@@ -2593,6 +2836,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B11.fcs",
@@ -2613,6 +2857,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C02.fcs",
@@ -2633,6 +2878,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C01.fcs",
@@ -2653,6 +2899,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C08.fcs",
@@ -2673,6 +2920,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C04.fcs",
@@ -2693,6 +2941,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C03.fcs",
@@ -2713,6 +2962,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C07.fcs",
@@ -2733,6 +2983,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C11.fcs",
@@ -2753,6 +3004,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C09.fcs",
@@ -2773,6 +3025,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D01.fcs",
@@ -2793,6 +3046,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D03.fcs",
@@ -2813,6 +3067,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C12.fcs",
@@ -2833,6 +3088,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D02.fcs",
@@ -2853,6 +3109,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D04.fcs",
@@ -2873,6 +3130,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D06.fcs",
@@ -2893,6 +3151,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D09.fcs",
@@ -2913,6 +3172,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D08.fcs",
@@ -2933,6 +3193,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D12.fcs",
@@ -2953,6 +3214,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E01.fcs",
@@ -2973,6 +3235,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D07.fcs",
@@ -2993,6 +3256,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D11.fcs",
@@ -3013,6 +3277,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D10.fcs",
@@ -3033,6 +3298,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E05.fcs",
@@ -3053,6 +3319,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E04.fcs",
@@ -3073,6 +3340,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E07.fcs",
@@ -3093,6 +3361,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E02.fcs",
@@ -3113,6 +3382,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E08.fcs",
@@ -3133,6 +3403,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E12.fcs",
@@ -3153,6 +3424,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E03.fcs",
@@ -3173,6 +3445,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E09.fcs",
@@ -3193,6 +3466,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E11.fcs",
@@ -3213,6 +3487,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E10.fcs",
@@ -3233,6 +3508,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F03.fcs",
@@ -3253,6 +3529,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F04.fcs",
@@ -3273,6 +3550,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F05.fcs",
@@ -3293,6 +3571,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F02.fcs",
@@ -3313,6 +3592,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F06.fcs",
@@ -3333,6 +3613,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F11.fcs",
@@ -3353,6 +3634,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F10.fcs",
@@ -3373,6 +3655,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G02.fcs",
@@ -3393,6 +3676,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F07.fcs",
@@ -3413,6 +3697,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G01.fcs",
@@ -3433,6 +3718,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F09.fcs",
@@ -3453,6 +3739,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G05.fcs",
@@ -3473,6 +3760,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G04.fcs",
@@ -3493,6 +3781,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G06.fcs",
@@ -3513,6 +3802,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G07.fcs",
@@ -3533,6 +3823,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G08.fcs",
@@ -3553,6 +3844,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H01.fcs",
@@ -3573,6 +3865,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G12.fcs",
@@ -3593,6 +3886,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G03.fcs",
@@ -3613,6 +3907,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H03.fcs",
@@ -3633,6 +3928,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G10.fcs",
@@ -3653,6 +3949,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H07.fcs",
@@ -3673,6 +3970,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H04.fcs",
@@ -3693,6 +3991,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H08.fcs",
@@ -3713,6 +4012,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP__X__pMOD8A-RGR-W10",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H09.fcs",
@@ -3733,6 +4033,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H01.fcs",
@@ -3753,6 +4054,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G11.fcs",
@@ -3773,6 +4075,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G09.fcs",
@@ -3793,6 +4096,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E02.fcs",
@@ -3813,6 +4117,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A07.fcs",
@@ -3833,6 +4138,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B04.fcs",
@@ -3853,6 +4159,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F04.fcs",
@@ -3873,6 +4180,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B06.fcs",
@@ -3893,6 +4201,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F06.fcs",
@@ -3913,6 +4222,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C09.fcs",
@@ -3933,6 +4243,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G12.fcs",
@@ -3953,6 +4264,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F08.fcs",
@@ -3973,6 +4285,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C02.fcs",
@@ -3993,6 +4306,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H04.fcs",
@@ -4013,6 +4327,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G05.fcs",
@@ -4033,6 +4348,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H06.fcs",
@@ -4053,6 +4369,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F02.fcs",
@@ -4073,6 +4390,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F07.fcs",
@@ -4093,6 +4411,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H03.fcs",
@@ -4113,6 +4432,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A12.fcs",
@@ -4133,6 +4453,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F11.fcs",
@@ -4153,6 +4474,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H02.fcs",
@@ -4173,6 +4495,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G03.fcs",
@@ -4193,6 +4516,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F09.fcs",
@@ -4213,6 +4537,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B10.fcs",
@@ -4233,6 +4558,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H05.fcs",
@@ -4253,6 +4579,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F10.fcs",
@@ -4273,6 +4600,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E05.fcs",
@@ -4293,6 +4621,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G08.fcs",
@@ -4313,6 +4642,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D07.fcs",
@@ -4333,6 +4663,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C06.fcs",
@@ -4353,6 +4684,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E07.fcs",
@@ -4373,6 +4705,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A10.fcs",
@@ -4393,6 +4726,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F03.fcs",
@@ -4413,6 +4747,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B01.fcs",
@@ -4433,6 +4768,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C03.fcs",
@@ -4453,6 +4789,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G01.fcs",
@@ -4473,6 +4810,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F01.fcs",
@@ -4493,6 +4831,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A02.fcs",
@@ -4513,6 +4852,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A01.fcs",
@@ -4533,6 +4873,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D06.fcs",
@@ -4553,6 +4894,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A04.fcs",
@@ -4573,6 +4915,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A05.fcs",
@@ -4593,6 +4936,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A03.fcs",
@@ -4613,6 +4957,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A08.fcs",
@@ -4633,6 +4978,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B02.fcs",
@@ -4653,6 +4999,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B05.fcs",
@@ -4673,6 +5020,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G07.fcs",
@@ -4693,6 +5041,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A06.fcs",
@@ -4713,6 +5062,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A09.fcs",
@@ -4733,6 +5083,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "A11.fcs",
@@ -4753,6 +5104,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B03.fcs",
@@ -4773,6 +5125,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B09.fcs",
@@ -4793,6 +5146,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B07.fcs",
@@ -4813,6 +5167,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C04.fcs",
@@ -4833,6 +5188,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B08.fcs",
@@ -4853,6 +5209,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B11.fcs",
@@ -4873,6 +5230,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "B12.fcs",
@@ -4893,6 +5251,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C01.fcs",
@@ -4913,6 +5272,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C05.fcs",
@@ -4933,6 +5293,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C07.fcs",
@@ -4953,6 +5314,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C08.fcs",
@@ -4973,6 +5335,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C10.fcs",
@@ -4993,6 +5356,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C12.fcs",
@@ -5013,6 +5377,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D01.fcs",
@@ -5033,6 +5398,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "C11.fcs",
@@ -5053,6 +5419,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D02.fcs",
@@ -5073,6 +5440,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D03.fcs",
@@ -5093,6 +5461,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D04.fcs",
@@ -5113,6 +5482,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D05.fcs",
@@ -5133,6 +5503,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D08.fcs",
@@ -5153,6 +5524,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D10.fcs",
@@ -5173,6 +5545,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D11.fcs",
@@ -5193,6 +5566,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D09.fcs",
@@ -5213,6 +5587,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "D12.fcs",
@@ -5233,6 +5608,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E01.fcs",
@@ -5253,6 +5629,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E03.fcs",
@@ -5273,6 +5650,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E04.fcs",
@@ -5293,6 +5671,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E06.fcs",
@@ -5313,6 +5692,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E08.fcs",
@@ -5333,6 +5713,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E09.fcs",
@@ -5353,6 +5734,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E11.fcs",
@@ -5373,6 +5755,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E12.fcs",
@@ -5393,6 +5776,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F05.fcs",
@@ -5413,6 +5797,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "E10.fcs",
@@ -5433,6 +5818,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "F12.fcs",
@@ -5453,6 +5839,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G02.fcs",
@@ -5473,6 +5860,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G06.fcs",
@@ -5493,6 +5881,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD-LTR3-HygMX-GPD-RGR-W36|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G04.fcs",
@@ -5513,6 +5902,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H08.fcs",
@@ -5533,6 +5923,7 @@
             "strain": "sample_9449/sample_30 diploid isolate #1 from Ginkgo Bioworks",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H07.fcs",
@@ -5553,6 +5944,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP|pMOD-HOKan-pGRR-W36(c3)W8(c5)-RGR-W20|pMOD-LTR1-Nat-pGRR-W36-RGR-W5|pMOD6-pGRR-W10(c3)W5(c6)-RGR-W17|pMOD-LTR2-bleo-pGRR-W8W8-RGR-W10|pMOD8A-RGR-W8|pMOD-HOKan-Leu2",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "G10.fcs",
@@ -5573,6 +5965,7 @@
             "strain": "pMOD4G-dcas9-mxi1|pMOD6-W17(c3)W20(c6)-eGFP__X__pMOD8A-RGR-W10",
             "measurements": [
                 {
+                    "timepoint": "16:hour",
                     "files": [
                         {
                             "name": "H09.fcs",
