@@ -22,12 +22,12 @@ def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
     output_doc[SampleConstants.LAB] = SampleConstants.LAB_GINKGO
     output_doc[SampleConstants.SAMPLES] = []
 
-    for gingko_sample in ginkgo_doc:
+    for ginkgo_sample in ginkgo_doc:
         sample_doc = {}
-        sample_doc[SampleConstants.SAMPLE_ID] = str(gingko_sample["sample_id"])
+        sample_doc[SampleConstants.SAMPLE_ID] = str(ginkgo_sample["sample_id"])
 
         reagents = []
-        for reagent in gingko_sample["content"]["reagent"]:
+        for reagent in ginkgo_sample["content"]["reagent"]:
             # TODO librarian mapping
             reagents.append(reagent["name"])
             concentration_prop = "concentration"
@@ -35,18 +35,18 @@ def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
                 reagents.append(reagent[concentration_prop])
         sample_doc[SampleConstants.CONTENTS] = reagents
 
-        for strain in gingko_sample["content"]["strain"]:
+        for strain in ginkgo_sample["content"]["strain"]:
             # TODO librarian mapping
             sample_doc[SampleConstants.STRAIN] = strain["name"]
             # TODO multiple strains?
             continue
 
-        props = gingko_sample["properties"]
+        props = ginkgo_sample["properties"]
 
         control_for_prop = "control_for_samples"
         sbh_uri_prop = "SD2_SBH_URI"
-        if control_for_prop in gingko_sample:
-            control_for_val = gingko_sample[control_for_prop]
+        if control_for_prop in ginkgo_sample:
+            control_for_val = ginkgo_sample[control_for_prop]
 
             #int -> str conversion
             if isinstance(control_for_val, list):
@@ -79,7 +79,7 @@ def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
                 replicate_val = int(replicate_val)
             sample_doc[SampleConstants.REPLICATE] = replicate_val
 
-        for measurement_key in gingko_sample["measurements"].keys():
+        for measurement_key in ginkgo_sample["measurements"].keys():
             measurement_doc = {}
             time_prop = "SD2_timepoint"
             if time_prop in props:
@@ -98,7 +98,7 @@ def convert_ginkgo(schema_file, input_file, verbose=True, output=True):
 
             measurement_doc[SampleConstants.FILES] = []
 
-            measurement_props = gingko_sample["measurements"][measurement_key]
+            measurement_props = ginkgo_sample["measurements"][measurement_key]
 
             assay_type = measurement_props["assay_type"]
             if assay_type == "NGS (RNA)":
